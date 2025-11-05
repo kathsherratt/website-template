@@ -2,6 +2,7 @@ project:
   type: website
 
 website:
+  open-graph: true
   title: "website-template"
   navbar:
     left:
@@ -12,8 +13,8 @@ website:
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      light: flatly
+      dark: darkly
     css: styles.css
     toc: true
 
